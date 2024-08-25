@@ -6,7 +6,7 @@ from firebase_admin import credentials, storage, firestore
 import os
 
 # Initialize Firebase
-cred = credentials.Certificate("path/to/firebase-adminsdk.json")
+cred = credentials.Certificate("/.env")
 firebase_admin.initialize_app(cred, {
     'storageBucket': '<backend_hackathon>.appspot.com'
 })
