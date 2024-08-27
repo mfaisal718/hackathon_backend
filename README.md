@@ -1,8 +1,6 @@
-# My TensorFlow Project
-
-This is a simple project using Python, NumPy, and TensorFlow. It includes basic examples of NumPy arrays and TensorFlow operations.
+Face Detection app built using Tensorflow on Python Flask
 
 ## How to Run
 
 ```bash
-python main.py
+python app.py
